@@ -36,7 +36,7 @@ Install-PackageIfNotInstalled "fastboot" "choco install fastboot -y"
 
 $nome = Read-Host "Do you wish to flash the image Y/N"
 if ($nome -eq "Y") {
-    Start-Process -Wait -FilePath python -ArgumentList "mtkbootcmd.py FASTBOOT"
+    Start-Process -Wait -FilePath python -ArgumentList "ports_finder.py FASTBOOT"
     Write-Output "Waiting for fastboot"
     do {
         Start-Sleep 1
