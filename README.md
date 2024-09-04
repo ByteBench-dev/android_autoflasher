@@ -14,9 +14,9 @@ This script requires the following software to be installed on your system:
 
 3-The serial and serial.tools python modules.
 
-Usage
+**Usage**
 
-Put your phone in fastboot mode and open the autoflash.ps1 file and it will automatically do everything, the only thing you need to do is selecting the image you want to flash when prompted.
+Clone the repository, put your phone in fastboot mode and open the autoflash.ps1 file and it will automatically do everything, the only thing you need to do is selecting the image you want to flash when prompted.
 
 **Disclaimer**
 
